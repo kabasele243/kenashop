@@ -71,3 +71,17 @@
     }
   }
 }
+
+@media only screen and (max-width: 788px) {
+  .menu-item {
+    min-width: 32%;
+    height: 374px;
+  }
+} 
+
+@media only screen and (max-width: 600px) {
+  .menu-item {
+    min-width: 50%;
+    height: 205px;
+  }
+}
