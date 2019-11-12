@@ -83,5 +83,11 @@
   .menu-item {
     min-width: 50%;
     height: 205px;
+
+    &.large {
+      height: 205px;
+    }
   }
+
+  
 }
