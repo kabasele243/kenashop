@@ -12,7 +12,7 @@ class Directory extends React.Component {
       sections: [
         {
           title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          imageUrl: 'https://images.unsplash.com/photo-1485675067348-b5ac01cfc282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
           id: 1
         },
         {
@@ -33,7 +33,7 @@ class Directory extends React.Component {
         },
         {
           title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          imageUrl: 'https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=426&q=80',
           size: 'large',
           id: 5
         }
