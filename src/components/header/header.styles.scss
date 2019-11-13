@@ -1,0 +1,55 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color:#0D986A ;
+    box-shadow: 3px 6px 12px -1px rgba(209,198,209,1);
+    
+    
+    
+    .logo-container {
+        font-size: 20px;
+        padding: 0;
+        margin: 0 20px;
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        padding: 10px 15px;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .header {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .options {
+            width: 100%;
+            flex-direction: column;
+            text-align: center;
+           }
+    }
+   
+       .option {
+     
+        text-align: center;
+       }
+
+    
+  }

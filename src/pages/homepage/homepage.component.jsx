@@ -4,8 +4,10 @@ import './homepage.styles.scss'
 import Footer from '../../components/footer/footer.component';
 
 
+
 const HomePage = () => (
     <div className="homepage">
+
         <Directory />
         <Footer />
     </div>
