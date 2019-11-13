@@ -6,6 +6,7 @@
     align-items: center;
     border-radius: 5px;
     box-shadow: -4px 9px 48px -34px rgba(166,158,166,1);
+    overflow: hidden;
   
     .image {
       width: 100%;
@@ -36,3 +37,10 @@
     }
   }
   
+  @media only screen and (max-width: 788px) {
+    // .collection-item { 
+    //   flex-direction: row;
+    //   width: 100%;
+    //   height: 5%;}
+   
+  }

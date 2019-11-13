@@ -38,7 +38,7 @@ const Footer = () =>
                 <h3>Special Links</h3>
             </div>
             <div className="footer_section social-network">
-                <h3>Social network</h3>
+                <h3>Social</h3>
                 <ul>
                     <li><a><i class="fab fa-linkedin"></i></a></li>
                     <li><i class="fab fa-facebook"></i></li>

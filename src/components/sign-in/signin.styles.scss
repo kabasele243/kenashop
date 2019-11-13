@@ -1,0 +1,23 @@
+.sign-in{
+    margin: 0 30px ;
+    width: 30vw;
+    // border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 3px 6px 42px -1px rgba(209,198,209,1);
+}
+
+@media only screen and (max-width: 788px) {
+    .sign-in{
+        width: 75vw;
+        
+    }
+  }
+
+  @media only screen and (max-width: 598px) {
+    .sign-in{
+        
+        width: 65vw;
+    }
+  }
