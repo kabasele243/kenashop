@@ -35,7 +35,7 @@ const Footer = () =>
                 </ul>
             </div>
             <div className="footer_section">
-                <h3>Special Link</h3>
+                <h3>Special Links</h3>
             </div>
             <div className="footer_section social-network">
                 <h3>Social network</h3>
