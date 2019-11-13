@@ -135,7 +135,7 @@ const SHOP_DATA = [
             {
                 id: 20,
                 name: 'Grey Jean Jacket',
-                imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+                imageUrl: 'https://images.unsplash.com/photo-1519420551009-127f1d10ba97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
                 price: 90
             },
             {
@@ -160,31 +160,31 @@ const SHOP_DATA = [
             {
                 id: 23,
                 name: 'Blue Tanktop',
-                imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+                imageUrl: 'https://images.unsplash.com/photo-1523825036634-aab3cce05919?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
                 price: 25
             },
             {
                 id: 24,
                 name: 'Floral Blouse',
-                imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+                imageUrl: 'https://images.unsplash.com/photo-1531123414780-f74242c2b052?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
                 price: 20
             },
             {
                 id: 25,
                 name: 'Floral Dress',
-                imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+                imageUrl: 'https://images.unsplash.com/photo-1495490140452-5a226aef25d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
                 price: 80
             },
             {
                 id: 26,
                 name: 'Red Dots Dress',
-                imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+                imageUrl: 'https://images.unsplash.com/photo-1570632239965-a0cbe66a75c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
                 price: 80
             },
             {
                 id: 27,
                 name: 'Striped Sweater',
-                imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+                imageUrl: 'https://images.unsplash.com/photo-1554924978-b91a174422cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
                 price: 45
             },
             {
@@ -196,7 +196,7 @@ const SHOP_DATA = [
             {
                 id: 29,
                 name: 'White Blouse',
-                imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+                imageUrl: 'https://images.unsplash.com/photo-1564923630403-2284b87c0041?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=451&q=80',
                 price: 20
             }
         ]
@@ -209,25 +209,25 @@ const SHOP_DATA = [
             {
                 id: 30,
                 name: 'Camo Down Vest',
-                imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+                imageUrl: 'https://images.unsplash.com/photo-1561259230-46fa9832bf20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
                 price: 325
             },
             {
                 id: 31,
                 name: 'Floral T-shirt',
-                imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+                imageUrl: 'https://images.unsplash.com/photo-1563122870-6b0b48a0af09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
                 price: 20
             },
             {
                 id: 32,
                 name: 'Black & White Longsleeve',
-                imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+                imageUrl: 'https://images.unsplash.com/photo-1522609904153-ac482b6b77ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
                 price: 25
             },
             {
                 id: 33,
                 name: 'Pink T-shirt',
-                imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+                imageUrl: 'https://images.unsplash.com/photo-1545967174-91cbc55b36e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80',
                 price: 25
             },
             {
