@@ -18,6 +18,7 @@
     & .background-image {
       transform: scale(1.1);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      filter: blur(1px);
     }
 
     & .content {
@@ -26,7 +27,11 @@
   }
 
   &.large {
-    height: 380px;
+    height: 360px;
+  }
+  &.medium {
+    height: 300px;
+    min-width: 40%;
   }
 
   &:first-child {
@@ -76,17 +81,25 @@
   .menu-item {
     min-width: 32%;
     height: 374px;
+    &.medium {
+      height: 360px;
+    }
   }
+ 
 } 
 
 @media only screen and (max-width: 600px) {
   .menu-item {
     min-width: 50%;
     height: 180px;
-
+    &.medium {
+      min-width: 50%;
+      height: 180px;
+    }
     &.large {
       height: 180px;
     }
+    
   }
 
   

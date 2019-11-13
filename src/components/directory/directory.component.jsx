@@ -29,6 +29,20 @@ class Directory extends React.Component {
           linkUrl: 'sneakers'
         },
         {
+          title: 'technology',
+          imageUrl: 'https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80',
+          id: 2,
+          size: 'medium',
+          linkUrl: 'technology'
+        },
+        {
+          title: 'children',
+          imageUrl: 'https://images.unsplash.com/photo-1507036066871-b7e8032b3dea?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80',
+          id: 3,
+          size: 'medium',
+          linkUrl: 'children'
+        },
+        {
           title: 'womens',
           imageUrl: 'https://images.unsplash.com/photo-1520880178538-52017968d5d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
           size: 'large',
