@@ -1,0 +1,12 @@
+.signPage{
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px){
+    .signPage{
+        flex-direction: column;
+    }
+}
