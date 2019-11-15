@@ -24,7 +24,12 @@
   
       .option {
         padding: 10px 15px;
+        color: white;
+        cursor: pointer;
       }
+    }
+    .icon {
+      display: none;
     }
   }
 
@@ -33,23 +38,46 @@
     color: white;
   }
 
+  // .menu-list {
+  //   z-index: 100000;
+  //   position: fixed;
+  //   background-color: #0D986A;
+  //   left: 0;
+  //   width: 600px;
+  //   height: 800px;
+    
+  // }
+
   @media only screen and (max-width: 600px) {
     .header {
-        height: 100%;
+        
         display: flex;
         flex-direction: column;
         text-align: center;
+        height: 100%;
+        // .logo-container {
+        //   display: none;
+        // }
+        
         .options {
+          // display: none;
             width: 100%;
             flex-direction: column;
             text-align: center;
            }
+          //  .icon {
+          //   display: inline;
+          //   text-align: right;
+          // }
     }
    
        .option {
      
         text-align: center;
        }
+       
 
     
   }
+
+ 

@@ -26,7 +26,7 @@ const Footer = () =>
                         <i class="fa fa-phone fa-1x">
 
                         </i>
-                        <span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212)5552368</a>
+                        <span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212)-555-2368</a>
                         </span>
                     </li>
 
