@@ -5,8 +5,10 @@ import { auth } from '../../firebase/firebase.utils';
 import { ReactComponent as Logo } from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom';
 import MenuIcon from '../menu-icon/menu-icon.component';
+import CartIcon from '../cart-icon/cart-icon.component';
+import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link className='logo-container' to='/'>
             <h3 className='logo'>KenaShop</h3>
@@ -25,16 +27,19 @@ const Header = ({ currentUser }) => (
                     <Link className='option' to='/signin' > SIGN IN</Link>
             }
 
-
+            <CartIcon />
 
         </div>
+
+        {hidden ? null : <CartDropdown />}
         {/* 
         <MenuIcon /> */}
     </div >
 )
 
-const mapStateToProps = state => ({
-    currentUser: state.user.currentUser
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
+    currentUser,
+    hidden
 })
 
 export default connect(mapStateToProps)(Header);
