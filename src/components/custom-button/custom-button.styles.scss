@@ -15,6 +15,7 @@
     box-shadow: 3px 6px 42px -1px rgba(209,198,209,1);
     margin-bottom: 20px;
     cursor: pointer;
+   
   
     &:hover {
       background-color: white;
@@ -28,6 +29,17 @@
       &:hover {
         background-color: white;
         color: #0D986A;
+        border: none;
+      }
+    }
+    &.inverted {
+      background-color: white;
+      color: black;
+     
+
+      &:hover {
+        background-color: black;
+        color: white;
         border: none;
       }
     }
